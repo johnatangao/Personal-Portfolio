@@ -1,0 +1,15 @@
+/*Stylesheet for the about component*/
+
+.bigText {
+    font-size: 100px;
+}
+
+.bg {
+    height: 80vh;
+    background-image: url('./moon-background.jpg');
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
