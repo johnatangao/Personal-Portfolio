@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
-import { Container, Image} from 'react-bootstrap'
+import { Container} from 'react-bootstrap'
 import GreetingText from './GreetingText'
-import './GreetingText.css'
+import './About.css'
+import IntroText from './IntroText'
 
 export default class About extends Component {
 
@@ -9,7 +10,8 @@ export default class About extends Component {
 
         return (
             <Container fluid={true} className="bg">
-                <GreetingText greetings = {this.props.greetings} />
+                <GreetingText smallText = {this.props.about.smallText} bigText = {this.props.bigText} />
+                <IntroText introText1 = {this.props.about.introText1} introText2 = {this.props.about.introText2}/>
             </Container>
         )
     }

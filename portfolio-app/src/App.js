@@ -7,8 +7,8 @@ export default class App extends Component {
   render() {
     return (
       <div>
-        <Header navbarContent = {content.navbarContent}/>
-        <About greetings = {content.greetings} />
+        <Header navbarContent = {content.header}/>
+        <About about = {content.about} />
       </div>
     )
   }

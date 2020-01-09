@@ -3,7 +3,7 @@
 const content = {
 
     //Header section (the navbar content)
-    "navbarContent" : [
+    "header" : [
         "About",
         "Resume",
         "Projects",
@@ -11,9 +11,11 @@ const content = {
     ],
 
     //About section (Greeting texts composed of big text and small texts)
-    "greetings" : {
+    "about" : {
         "bigText" : "Hello",
-        "smallText" : "I'm Johnatan", 
+        "smallText" : "I'm Johnatan",
+        "introText1" : "Front-End Web Developper",
+        "introText2" : "Software Engineering Student"
     },
 
 
