@@ -1,0 +1,18 @@
+/*Stylesheet for the about component*/
+
+.bigText {
+    font-size: 100px;
+}
+
+.bg {
+    padding-top: 10vh;
+    height: 100vh;
+    background-color: black;
+}
+
+.introText {
+    font-size: 25px;
+    color: #FFFFFF;
+    text-shadow: 0 0 2px #FFF, 0 0 5px #FFF, 0 0 5px #FFF, 0 0 5px #34adfd, 0 0 15px #34adfd, 0 0 25px #34adfd, 0 0 10px #34adfd, 0 0 10px #34adfd;
+    font-family: 'Roboto Mono', monospace!important;
+}
