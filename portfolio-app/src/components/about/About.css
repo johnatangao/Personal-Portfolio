@@ -1,18 +1,31 @@
 /*Stylesheet for the about component*/
 
 .bigText {
-    font-size: 100px;
+    font-size: 40px;
 }
 
 .bg {
+    position: relative;
     padding-top: 10vh;
+    width: 100vw;
     height: 100vh;
     background-color: black;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.about-container{
+    position: absolute;
+    left: 2%;
+    bottom: 2%;
 }
 
 .introText {
     font-size: 25px;
     color: #FFFFFF;
     text-shadow: 0 0 2px #FFF, 0 0 5px #FFF, 0 0 5px #FFF, 0 0 5px #34adfd, 0 0 15px #34adfd, 0 0 25px #34adfd, 0 0 10px #34adfd, 0 0 10px #34adfd;
-    font-family: 'Roboto Mono', monospace!important;
 }
+
+.socialMedia {
+    margin: 10px 20px 0 0;
+}
+

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Navbar, Nav } from "react-bootstrap";
+import './Header.css'
 
 export default class Header extends Component {
 
@@ -9,7 +10,7 @@ export default class Header extends Component {
 
         return (
             <div>
-                <Navbar collapseOnSelect expand="lg" variant="dark" bg="dark" fixed="top">
+                <Navbar collapseOnSelect expand="lg" variant="dark" className="color-nav" fixed="top">
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="mr-auto text-center">
