@@ -36,23 +36,23 @@ const content = {
             {
                 "name" : "Montreal Polytechnic",
                 "year" : "2019-2023",
-                "major" : "Software Engineering",
+                "title" : "B.Ing Software Engineering",
             },
             {
                 "name" : "Maisonneuve College",
                 "year" : "2017-2019",
-                "major" : "Computer Science and Mathematics"
+                "title" : "DEC Computer Sci. and Math",
             }
         ],
 
         "experience" : [
             {
-                "company" : "Maisonneuve College",
+                "name" : "Maisonneuve College",
                 "year" : "2018-2019",
                 "title" : "Computer Science Tutor",
             },
             {
-                "company": "Ludex Inc",
+                "name": "Ludex Inc",
                 "year" : "2019-2020",
                 "title" : "Web Developer Intern",
             }
@@ -60,15 +60,15 @@ const content = {
 
         "certificates" : [
             {
-                "provider": "FreeCodeCamp",
-                "name" : "Responsive Web Design",
-                "Date" : "2019",
+                "name": "FreeCodeCamp",
+                "title" : "Responsive Web Design",
+                "year" : "2019",
                 "link" : "https://www.freecodecamp.org/certification/johnatangao/responsive-web-design",
             },
             {
-                "provider": "FreeCodeCamp",
-                "name" : "Javascript Algorithms and Data Structures",
-                "Date" : "2019",
+                "name": "FreeCodeCamp",
+                "title" : "Javascript Algorithms and Data Structures",
+                "year" : "2019",
                 "link" : "https://www.freecodecamp.org/certification/johnatangao/javascript-algorithms-and-data-structures"
             }
         ],

@@ -1,0 +1,41 @@
+.bg {
+    color: white;
+    background-color: black;
+    padding-left: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    .container-entry {
+        justify-content: center;
+    }
+
+    .container-resume-entry{        
+        text-align: center;
+    }
+
+}
+
+.container-entry {
+    margin: 20px 20px 20px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+
+.container-resume-entry {
+    display: inline-table;
+    position: relative;
+}
+
+.school-logo {
+    margin: 0 10px 0 10px;
+}
+
+.info-container {
+    display: flex;
+    position: absolute;
+    left: 0%;
+    width: 600px;
+    max-width: 1500px;
+}
