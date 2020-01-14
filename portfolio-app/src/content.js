@@ -52,7 +52,7 @@ const content = {
                 "title" : "Computer Science Tutor",
             },
             {
-                "name": "Ludex Inc",
+                "name": "Ludex Technologies",
                 "year" : "2019-2020",
                 "title" : "Web Developer Intern",
             }
@@ -67,13 +67,19 @@ const content = {
             },
             {
                 "name": "FreeCodeCamp",
-                "title" : "Javascript Algorithms and Data Structures",
+                "title" : "Javascript Algo & D.S",
                 "year" : "2019",
                 "link" : "https://www.freecodecamp.org/certification/johnatangao/javascript-algorithms-and-data-structures"
             }
         ],
 
-    }
+    },
+
+    "portfolio" : [
+        {
+
+        }
+    ],
 
 };
 

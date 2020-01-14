@@ -23,9 +23,16 @@
     text-align: center;
 }
 
+.categorie-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
 .container-resume-entry {
     display: inline-table;
     position: relative;
+    background-color: black;
 }
 
 .school-logo {
