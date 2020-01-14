@@ -2,6 +2,9 @@
     color: white;
     background-color: black;
     padding-left: 0;
+    height: auto;
+    max-width: 100%;
+    width: 100vw;
 }
 
 @media only screen and (max-width: 600px) {

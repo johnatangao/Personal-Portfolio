@@ -77,7 +77,9 @@ const content = {
 
     "portfolio" : [
         {
-
+            "name" : "Connect 4",
+            "description" : "something something",
+            "Github" : "https://github.com/johnatangao/connect4-JS"
         }
     ],
 
