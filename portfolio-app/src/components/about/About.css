@@ -1,35 +1,17 @@
-/*Stylesheet for the about component*/
+/*CSS stylesheet for the about component*/
 
-html{
+.about-me-description {
+    font-size: large;
+    align-self: center;
+}
+
+#about-me-bg {
+    display: flex;
+    align-content: center;
+    align-items: center;
     background-color: black;
+    color: white;
+    height: 50vh;
+    padding: 0 0 0 0;
     max-width: 100%;
 }
-
-.bigText {
-    font-size: 40px;
-}
-
-.bg {
-    position: relative;
-    padding-top: 10vh;
-    width: 100vw;
-    height: 100vh;
-    background-color: black;
-    font-family: 'Roboto Mono', monospace;
-}
-
-.about-container{
-    position: absolute;
-    left: 2%;
-    bottom: 2%;
-}
-
-.introText {
-    font-size: 25px;
-    /*text-shadow: 0 0 2px #FFF, 0 0 5px #FFF, 0 0 5px #FFF, 0 0 5px #34adfd, 0 0 15px #34adfd, 0 0 25px #34adfd, 0 0 10px #34adfd, 0 0 10px #34adfd; */
-}
-
-.socialMedia {
-    margin: 10px 20px 0 0;
-}
-

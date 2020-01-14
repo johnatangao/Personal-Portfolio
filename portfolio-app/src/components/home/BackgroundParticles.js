@@ -1,6 +1,6 @@
 import React from 'react'
 import Particles from 'react-particles-js'
-import './About.css'
+import './Home.css'
 
 export default function BackgroundParticles() {
 
@@ -8,7 +8,7 @@ export default function BackgroundParticles() {
         particles: {
             particles: {
                 number: {
-                    value: 100,
+                    value: 150,
                 }
             }
         }

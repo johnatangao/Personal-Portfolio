@@ -1,7 +1,7 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faLinkedinIn, faGithub, faFacebook} from '@fortawesome/free-brands-svg-icons'
-import './About.css'
+import './Home.css'
 
 export default function SocialMedia() {
     return (

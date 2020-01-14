@@ -4,6 +4,7 @@ const content = {
 
     //Header section (the navbar content)
     "header" : [
+        "Home",
         "About",
         "Resume",
         "Projects",
@@ -11,7 +12,7 @@ const content = {
     ],
 
     //About section (Greeting texts composed of big text and small texts + intro texts)
-    "about" : {
+    "home" : {
         "bigText" : "I'm Johnatan,",
         "introText1" : "Front-End Web Developper",
         "introText2" : "Software Engineering Student",
@@ -30,6 +31,8 @@ const content = {
             },
         ],
     },
+
+    "about" : "Hi! I'm Johnatan, a front-end developer aiming to become a fullstack developer by Summer 2020. I love technology, and eventually I would love to get into Mobile Development, AI/Machine Learning & Data Science ",
 
     "resume": {
         "education" : [

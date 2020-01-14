@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Header from './components/header/Header';
-import About from './components/about/About';
+import Home from './components/home/Home';
+import About from './components/about/about';
 import content from './content';
 import Resume from './components/resume/Resume';
 
@@ -9,7 +10,8 @@ export default class App extends Component {
     return (
       <div>
         <Header navbarContent = {content.header}/>
-        <About about = {content.about} />
+        <Home home = {content.home} />
+        <About about= {content.about}/>
         <Resume resume = {content.resume}/>
       </div>
     )
