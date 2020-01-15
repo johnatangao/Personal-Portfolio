@@ -4,28 +4,38 @@
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
-    align-items: center;
     height: auto;
     width: 60vw;
-    padding: 0;
+    max-width: 60%;
+    padding: 0 0 0 0;
 }
 
 #portfolio-entry-container {
-    max-width: 280px;
     width: 280px;
     height: 280px;
     margin: 0 5px 5px 0;
 }
 
+@media only screen and (max-width: 600px){
+    
+    #portfolio-entry-container {
+        margin: 0 0 5px 0;
+    }
+     
+}
+
 #portfolio-background {
     background-color: black;
+    width: 100vw;
     max-width: 100%;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
 }
 
 #portfolio-title{
     color: white;
     font-family: 'Roboto Mono', monospace;
     text-align: center;
-    padding-top: 10vh;
     padding-bottom: 5vh;
+    max-width: 100%;
 }

@@ -18,7 +18,7 @@
 }
 
 .container-entry {
-    margin: 20px 20px 20px 20px;
+    margin: 30px 30px 40px 30px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -29,12 +29,14 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    max-width: 100%;
 }
 
 .container-resume-entry {
     display: inline-table;
     position: relative;
     background-color: black;
+    font-family: 'Roboto Mono', monospace;
 }
 
 .school-logo {

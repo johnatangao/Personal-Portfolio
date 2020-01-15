@@ -1,5 +1,10 @@
 /*CSS stylesheet for the about component*/
 
+body,html{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 .about-me-description {
     font-size: large;
     align-self: center;

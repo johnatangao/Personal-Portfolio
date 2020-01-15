@@ -1,5 +1,5 @@
 import React from 'react'
-import {Container, Image} from 'react-bootstrap'
+import {Image} from 'react-bootstrap'
 import './Portfolio.css'
 
 export default function PortfolioEntry(props) {

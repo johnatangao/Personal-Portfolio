@@ -8,11 +8,13 @@ export default function BackgroundParticles() {
         particles: {
             particles: {
                 number: {
-                    value: 150,
+                    value: Math.ceil(window.innerWidth/2),
                 }
             }
         }
     }
+
+    console.log(particleOpt.particles.particles.number.value)
 
     return (
         <div>

@@ -5,6 +5,7 @@ import About from './components/about/about';
 import content from './content';
 import Resume from './components/resume/Resume';
 import Portfolio from './components/portfolio/Portfolio';
+import Contact from './components/contact/Contact'
 
 export default class App extends Component {
   render() {
@@ -15,6 +16,7 @@ export default class App extends Component {
         <About about= {content.about}/>
         <Resume resume = {content.resume}/>
         <Portfolio portfolio = {content.portfolio}/>
+        <Contact />
       </div>
     )
   }
