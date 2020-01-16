@@ -14,7 +14,7 @@ export default function Header(props) {
                             props.navbarContent.map( //this goes through everything and returns creates a Nav.Link
                                 (item) => {
                                     return (
-                                        <Nav.Link key={item} href={"#"+item}>{item}</Nav.Link>
+                                        <Nav.Link key={item} href={'#'+item}>{item}</Nav.Link>
                                     )
                                 }
                             )

@@ -55,7 +55,7 @@ const content = {
                 "title" : "Computer Science Tutor",
             },
             {
-                "name": "Ludex Technologies",
+                "name": "Ludex Technologies Inc.",
                 "year" : "2019-2020",
                 "title" : "Web Developer Intern",
             }

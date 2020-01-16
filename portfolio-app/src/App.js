@@ -6,17 +6,34 @@ import content from './content';
 import Resume from './components/resume/Resume';
 import Portfolio from './components/portfolio/Portfolio';
 import Contact from './components/contact/Contact'
+import { Element } from 'react-scroll'
 
 export default class App extends Component {
   render() {
     return (
       <div>
         <Header navbarContent = {content.header}/>
-        <Home home = {content.home} />
-        <About about= {content.about}/>
-        <Resume resume = {content.resume}/>
-        <Portfolio portfolio = {content.portfolio}/>
-        <Contact />
+        <Element name='Home' id="Home">
+          <Home home = {content.home} />
+        </Element>
+        
+        <Element name='About' id='About'>
+          <About about= {content.about}/>
+        </Element>
+        
+        <Element name='Resume' id='Resume'>
+          <Resume resume = {content.resume}/>
+        </Element>
+        
+        <Element name='Projects' id='Projects'>
+          <Portfolio portfolio = {content.portfolio}/>
+        </Element>
+        
+        <Element name='Contact' id='Contact'>
+          <Contact />
+        </Element>
+        
+
       </div>
     )
   }
