@@ -39,3 +39,53 @@
     padding-bottom: 5vh;
     max-width: 100%;
 }
+
+.container-port {
+    position: relative;
+    width: 100%;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 280px;
+    height: 280px;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    visibility: hidden;
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .container-port:hover .image {
+    opacity: 0.3;
+  }
+  
+  .container-port:hover .middle {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: rgb(76, 107, 175);
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+
+  a{
+      text-decoration: none;
+  }
+
+  #code-link {
+      color: white;
+  }

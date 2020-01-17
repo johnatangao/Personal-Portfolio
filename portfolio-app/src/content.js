@@ -56,7 +56,7 @@ const content = {
             },
             {
                 "name": "Ludex Technologies Inc.",
-                "year" : "2019-2020",
+                "year" : "2019",
                 "title" : "Web Developer Intern",
             }
         ],
@@ -83,7 +83,33 @@ const content = {
             "name" : "Connect 4",
             "description" : "something something",
             "Github" : "https://github.com/johnatangao/connect4-JS"
-        }
+        },
+
+        {
+            "name" : "Bloc-Spring Simulation",
+            "description" : "something something",
+            "Github" : "https://github.com/johnatangao/Bloc205"
+        },
+        {
+            "name" : "Stan Lee Tribute Page",
+            "description" : "something something",
+            "Github" : "https://github.com/johnatangao/Bootstrap-Tribute-Page"
+        },
+        {
+            "name" : "Rocket Simulation",
+            "description" : "something something",
+            "Github" : "https://github.com/johnatangao/20SimulationFusee"
+        },
+        {
+            "name" : "React Tic-Tac-Toe",
+            "description" : "something something",
+            "Github" : "https://github.com/johnatangao/React-tic-tac-toe"
+        },
+        {
+            "name" : "Bloc-Spring Simulation",
+            "description" : "something something",
+            "Github" : "https://github.com/johnatangao/Reimann112"
+        },
     ],
 
 };
