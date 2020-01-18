@@ -43,6 +43,7 @@
 .container-port {
     position: relative;
     width: 100%;
+    height: 100%;
   }
   
   .image {
@@ -65,9 +66,15 @@
     -ms-transform: translate(-50%, -50%);
     text-align: center;
   }
+
+  #middle-title {
+    margin-bottom: 30%;
+    background-color: rgba(0,0,0,0);
+  }
+
   
   .container-port:hover .image {
-    opacity: 0.3;
+    opacity: 0.2;
   }
   
   .container-port:hover .middle {
@@ -76,10 +83,8 @@
   }
   
   .text {
-    background-color: rgb(76, 107, 175);
     color: white;
     font-size: 16px;
-    padding: 16px 32px;
   }
 
   a{
@@ -88,4 +93,10 @@
 
   #code-link {
       color: white;
+      background-color: rgb(76, 107, 175);
+      padding: 16px 32px;
+  }
+
+  #middle-skills {
+    margin-bottom: 30%;
   }

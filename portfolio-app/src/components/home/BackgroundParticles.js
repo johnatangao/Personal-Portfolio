@@ -14,8 +14,6 @@ export default function BackgroundParticles() {
         }
     }
 
-    console.log(particleOpt.particles.particles.number.value)
-
     return (
         <div>
             <Particles height="88vh" param={particleOpt}/>

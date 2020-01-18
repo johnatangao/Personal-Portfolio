@@ -37,12 +37,12 @@ const content = {
     "resume": {
         "education" : [
             {
-                "name" : "Montreal Polytechnic",
+                "name" : "Polytechnique Montréal",
                 "year" : "2019-2023",
                 "title" : "B.Ing Software Engineering",
             },
             {
-                "name" : "Maisonneuve College",
+                "name" : "Collège de Maisonneuve",
                 "year" : "2017-2019",
                 "title" : "DEC Computer Sci. and Math",
             }
@@ -50,7 +50,7 @@ const content = {
 
         "experience" : [
             {
-                "name" : "Maisonneuve College",
+                "name" : "Collège de Maisonneuve",
                 "year" : "2018-2019",
                 "title" : "Computer Science Tutor",
             },
@@ -82,33 +82,39 @@ const content = {
         {
             "name" : "Connect 4",
             "description" : "something something",
-            "Github" : "https://github.com/johnatangao/connect4-JS"
+            "Github" : "https://github.com/johnatangao/connect4-JS",
+            "skills" : ["html5" , "css3" , "javascript" , "git"],
         },
 
         {
             "name" : "Bloc-Spring Simulation",
             "description" : "something something",
-            "Github" : "https://github.com/johnatangao/Bloc205"
+            "Github" : "https://github.com/johnatangao/Bloc205",
+            "skills" : ["java" , "git"],
         },
         {
             "name" : "Stan Lee Tribute Page",
             "description" : "something something",
-            "Github" : "https://github.com/johnatangao/Bootstrap-Tribute-Page"
+            "Github" : "https://github.com/johnatangao/Bootstrap-Tribute-Page",
+            "skills" : ["html5" , "css3" , "bootstrap", "git"],
         },
         {
             "name" : "Rocket Simulation",
             "description" : "something something",
-            "Github" : "https://github.com/johnatangao/20SimulationFusee"
+            "Github" : "https://github.com/johnatangao/20SimulationFusee",
+            "skills" : ["java" , "git"],
         },
         {
             "name" : "React Tic-Tac-Toe",
             "description" : "something something",
-            "Github" : "https://github.com/johnatangao/React-tic-tac-toe"
+            "Github" : "https://github.com/johnatangao/React-tic-tac-toe",
+            "skills" : ["react" , "git"],
         },
         {
-            "name" : "Bloc-Spring Simulation",
+            "name" : "Riemann",
             "description" : "something something",
-            "Github" : "https://github.com/johnatangao/Reimann112"
+            "Github" : "https://github.com/johnatangao/Reimann112",
+            "skills" : ["java" , "git"],
         },
     ],
 
